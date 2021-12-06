@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CorrectAnswer01"
+    android:orientation="vertical"
+    android:background="@drawable/bgapp1">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="266dp"
+        android:layout_height="265dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/star"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="34sp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="247dp"
+        android:layout_height="215dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/next1st"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:background="@drawable/bgbtn"
+            android:text="@string/next"
+            android:textColor="@color/colorPurple"
+            android:textSize="28dp" />
+    </LinearLayout>
+
+</LinearLayout>
+

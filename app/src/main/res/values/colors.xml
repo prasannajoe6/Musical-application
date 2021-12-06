@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="start">#2CA3DA</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#FF5EA2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPurple">#0D05EC</color>
+    <color name="textcolor">#DD205E</color>
+    <color name="Start">#F0E9EB</color>
+    <color name="Start2">#D80954</color>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/custom_toast_container"
+    android:padding="8dp"
+    android:background="#DAAA">
+
+    <ImageView
+        android:src="@drawable/tryagaain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"/>
+
+    <!--!&#45;&#45;<TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/text"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textColor="#FFF"/>&ndash;&gt; -->
+
+</LinearLayout>

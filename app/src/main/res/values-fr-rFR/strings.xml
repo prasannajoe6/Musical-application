@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">4T4WMLv4</string>
+    <string name="name">ENTREZ VOTRE NOM</string>
+    <string name="plyBTn">Jouer</string>
+    <string name="round01">Tour 01</string>
+    <string name="round02">Tour 02</string>
+    <string name="round03">Tour 03</string>
+    <string name="round04">Tour 04</string>
+    <string name="score">BUT</string>
+    <string name="time">TEMPS</string>
+    <string name="timesup">" Le temps est écoulé"</string>
+    <string name="wldon">Bien joué!</string>
+    <string name="ans">Sélectionnez dans le bon ordre</string>
+    <string name="Lplay">Jouez et gagnez</string>
+    <string name="start">DÉBUT</string>
+    <string name="points">POINTS :</string>
+    <string name="tagain">Réessayer</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="crtAns">Bonne réponse!</string>
+    <string name="next">SUIVANT</string>
+    <string name="level04topic">NOMMEZ LES NOTES</string>
+    <string name="namescore">NOM ET SCORE</string>
+    <string name="MsGAME">Jeu de musique</string>
+    <string name="selectTheOne">Sélectionnez le \"un\"</string>
+    <string name="sumthemup">Résumez-les!</string>
+    <string name="goback">REJOUER</string>
+    <string name="wrong">"FAUX "</string>
+    <string name="secondsrem">Secondes restantes</string>
+    <string name="pick01">Choisissez la bonne note</string>
+    <string name="level1main">Choisissez le bon symbole</string>
+    <string name="level03topic">Comptage de la valeur de note</string>
+    <string name="lvl03Topic">Comptage de la valeur de note</string>
+    <string name="lvl03cnf">Prochain</string>
+    <string name="NextR1">Tour 01</string>
+    <string name="NextR2">Tour 02</string>
+    <string name="NextR3">Tour 03</string>
+    <string name="Pnts">"POINTS: "</string>
+    <string name="bck">Retourner</string>
+    <string name="youdid">TU L\'AS FAIT!!</string>
+    <string name="lasttitle">Liste des joueurs ayant complété le niveau 04</string>
+    <string name="level3LAst">Liste des joueurs ayant complété le niveau 03</string>
+</resources>

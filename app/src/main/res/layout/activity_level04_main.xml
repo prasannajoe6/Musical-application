@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp6"
+    android:orientation="vertical"
+    tools:context=".level04Main">
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/homefromlevel04main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/homebtn"
+            android:text="@string/blank" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/level04maintop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/level04topic"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#fff"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/int0104"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/bgpink"
+            android:text="@string/one"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/int0204"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/bgpink"
+            android:text="@string/two"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/int0304"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/bgpink"
+            android:text="@string/three"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/int0404"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/bgpink"
+            android:text="@string/four"
+            android:textSize="36sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

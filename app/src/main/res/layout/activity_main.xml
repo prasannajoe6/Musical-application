@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp02"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="10dp"
+        android:paddingRight="24dp">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right">
+
+            <ImageButton
+                android:id="@+id/english"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/english" />
+
+            <ImageButton
+                android:id="@+id/french"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/frencg" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="90dp"
+            android:layout_marginBottom="30dp"
+            android:contentDescription="logo"
+            android:src="@drawable/musicdp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/name"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/nameedit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bgpurple"
+                android:singleLine="true"
+                android:textSize="22sp"
+                tools:ignore="InvalidId" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="24dp"
+            android:background="#20000000"
+            android:padding="20dp"
+            android:text="@string/plyBTn"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
